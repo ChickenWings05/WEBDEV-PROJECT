@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    box-sizing: border-box;
+}
+body{
+    background-color: maroon;
+}
+/* TITLE SECTION | CONTAINER1 */
+.main-container{
+    background-color: rgb(46, 45, 45);
+    border: solid 2px black;
+    margin: 20px 20px 0px 20px; 
+}
+.container1{
+    display: flex;
+    margin: 20px 20px 0px 10px;
+    padding: 0px 5px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.container1 #left-side1 {
+    color: white;
+    font-size: 120px;
+ }
+ .container1 #right-side1{
+    color: white;
+    font-size: 25px;
+    padding-top: 150px;
+ }
+
+ /* CAROUSEL | CONTAINER2*/
+ .container2{
+    background-color: rgb(46, 45, 45);
+    margin: 0px 20px 0px 20px;
+ }
+ .carousel{
+    padding: 10px 10px 0px 10px;
+    height: 670px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("carousel-1.jpg");
+
+ }
+ .fade{
+    -webkit-animation: 1.5s fade;
+    animation: 1.5s fade;
+ }
+ @-webkit-keyframes fade{
+    from{opacity: 0.4}
+    to{opacity: 1;}
+ }
+ @keyframes fade{
+    from{opacity: 0.4}
+    to{opacity: 1;}
+ }
+
+ /* ABOUT | CONTAINER3*/
+ .container3{
+    background-color: rgb(46, 45, 45);
+    border: solid 2px black;
+    margin: 2px 20px 0px 20px;
+    display: flex;
+ }
+.about-content{
+    background-color: rgb(46, 45, 45);
+    margin: 80px 20px 0px 20px;
+    padding: 10px 10px 0px 15px;
+
+}
+#title{
+    color: white;
+    font-size: 100px;
+}
+#content{
+    color: white;
+    padding-top: 50px;
+    margin-left: 325px;
+    width: 35%;
+}
+.about-image img{
+    height: 750px;
+    margin: 25px 30px
+}
+
+/* HOBBIES | CONTAINER4*/
+.main-container2{
+    background-color: rgb(46, 45, 45);
+    border: solid 2px black;
+    margin: 2px 20px 0px 20px; 
+}
+.container4{
+    margin: 2px 20px 0px 20px;
+    display: flex;
+}
+.left-side2{
+    padding: 250px 10px 0px 10px;
+}
+.left-side2 #title{
+    padding-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+.left-side2 img{
+    height: 400px;
+    width: 450px;
+}
+.right-side2{
+    display: flex;
+    margin: 50px
+}
+.picture-1 img{
+    margin-right: 50px;
+    height: 300px;
+    width: 350px;
+}
+#description{
+    color: white;
+    width: 350px;
+}
+.picture-2   img{
+    height: 300px;
+    width: 350px;
+}
+/* HOBBIES-2 / CONTAINER5*/
+.container5{
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    gap: 30px;
+}
+.left-side3{
+    display: flex;
+    padding-left: 10px;
+}
+#game-desc{
+    color: white;
+    width: 300px;
+}
+.left-side3 img{
+    height: 400px;
+    width: 450px;
+}
+.right-side3 img{
+    height: 400px;
+    width: 480px;
+}
+
+/* QUOTATION | CONTAINER6*/
+.container6{
+    background-color: rgb(46, 45, 45);
+    border: solid 2px black;
+    margin: 2px 20px 0px 20px;
+    padding: 35px;
+    display: flex; 
+}
+.right-side4{
+    display: flex;
+}
+#quotation{
+    color: white;
+    font-size: 50px;
+}
+.right-side4 img{
+    margin-top: 80px;
+    height: 500px;
+}
+.right-side4 #credits{
+    color: white;
+    margin-top:540px;
+}
+
+/* CONTACT | CONTAINER7*/
+.container7{
+    background-color: rgb(46, 45, 45);
+    border: solid 2px black;
+    margin: 2px 20px 0px 20px;
+    padding-top: 100px;
+    display: flex;
+}
+.contact{
+    font-size: 110px;
+    
+}
+#play{
+    color: white;
+    padding: 0px 30px
+}
+.poro{
+    color: white;
+    padding-left: 130px;
+    padding-bottom: 30px;
+}
+.poro img{
+    padding-top: 20px;
+    height: 300px;
+    width: 350px;
+}
